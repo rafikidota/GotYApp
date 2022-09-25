@@ -1,1 +1,18 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/angular.png" alt="angular logo" width="30" height="30">
+          </a>
+        <a class="navbar-brand" routerLink="home">GotY</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" routerLink="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"routerLink="goty">Vote</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
